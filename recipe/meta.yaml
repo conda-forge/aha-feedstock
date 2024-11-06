@@ -1,4 +1,4 @@
-{% set version = "0.5" %}
+{% set version = "0.5.1" %}
 
 package:
   name: aha
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/theZiz/aha/archive/{{ version }}.tar.gz
-  sha256: 6f8b044bee9760a1a85dffbc362e532d7dd91bb20b7ed4f241ff1119ad74758f
+  sha256: 6aea13487f6b5c3e453a447a67345f8095282f5acd97344466816b05ebd0b3b1
 
 build:
   skip: true  # [win]
-  number: 0 
+  number: 0
 
 requirements:
   build:
@@ -25,7 +25,7 @@ about:
   home: https://github.com/theZiz/aha
   license: MPL-1.1
   license_file: LICENSE.MPL1.1
-  summary: "Converts ANSI escape sequences of a unix terminal to HTML code."
+  summary: Converts ANSI escape sequences of a unix terminal to HTML code.
   description: |
     Converts ANSI escape sequences of a unix terminal to HTML code.
   doc_url: https://github.com/theZiz/aha
